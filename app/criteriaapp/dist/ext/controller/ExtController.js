@@ -1,0 +1,2 @@
+sap.ui.define(["sap/m/MessageToast"],function(e){"use strict";return{onPressGo:function(e){var t=e.getObject();let o="CatalogService.go";let i={contexts:e,model:this.getModel(),invocationGrouping:true};this.editFlow.invokeAction(o,i)}}});
+//# sourceMappingURL=ExtController.js.map
